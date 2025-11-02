@@ -1,0 +1,10 @@
+@media (max-width:520px){
+    #catSec{
+        flex-direction: column-reverse;
+    }
+
+    #head{
+        font-size: large;
+    }
+
+}

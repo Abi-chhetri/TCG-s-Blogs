@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@layer utilities {
+  input[type="search"]::-webkit-search-cancel-button {
+    @apply hidden;
+  }
+}
+
+#searchHome::-webkit-scrollbar{
+  display: none;
+}

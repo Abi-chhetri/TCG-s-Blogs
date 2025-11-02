@@ -1,0 +1,10 @@
+@media (max-width: 767px){
+    #copy{
+        font-size:xx-small;
+    }
+
+    #img{
+        height: 3rem;
+        width: 12rem;
+    }
+}

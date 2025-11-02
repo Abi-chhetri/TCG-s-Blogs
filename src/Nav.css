@@ -1,0 +1,13 @@
+.nav{
+    height: 4rem;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 1px 10px white;
+    top: 0;
+    z-index: 100;
+    position: sticky;
+}

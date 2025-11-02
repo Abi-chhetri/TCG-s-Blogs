@@ -1,0 +1,26 @@
+
+@media (max-width: 767px) {
+    #big{
+        display: none;
+    }
+
+    #small{
+        overflow: hidden;
+    }
+
+    #log-reg{
+        margin-left: -50%;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px){
+    #small{
+        display: none;
+    }
+
+    #ham{
+        display: none;
+    }
+}
