@@ -228,7 +228,7 @@ const Blogs = () => {
                     >
                       <div className="text-sm text-gray-500 mb-2">{blog.genre}</div>
                       <h2 className="text-2xl font-semibold mb-2 text-gray-900 hover:text-blue-600 transition-colors duration-300">{blog.title}</h2>
-                     {
+                     { /*
                         blog.image_url ? 
                           <div className="h-max w-full overflow-hidden flex justify-center mb-5">
                                <img 
@@ -240,7 +240,7 @@ const Blogs = () => {
                           :
                           <>
                           </>
-                      }
+                     */ }
                       <p className="text-gray-700 whitespace-pre-line text-justify">{blog.content.replace(/(\d+)\.\s/g, '\n$1. ')}</p>
                       <div className="mt-4 text-sm text-gray-400">{blog.dateTime}</div>
                     </div>
